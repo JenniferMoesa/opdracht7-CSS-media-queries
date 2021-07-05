@@ -1,0 +1,54 @@
+body {
+  /* background-color: black;
+  color: white; */
+  font-family: cursive, fantasy;
+}
+
+h1,h2,h3 {
+  color: pink;
+}
+
+.pink-border {
+  border: 5px dotted rgb(178, 10, 245);
+  border-radius: 12px;
+  margin: 20px;
+  padding: 15px;
+}
+
+#ingredients {
+  color: purple;
+}
+
+/* Een element centreren */
+h1 {
+  margin: o auto;
+  color: rgb(219, 22, 219);
+}
+
+.title, footer{
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-links {
+  display: inline-flex;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {                                                          
+  h1 {                                                                             
+      font-size: 60px; 
+      background-color: black;                                                            
+  }                                                                                
+}     
+
