@@ -28,6 +28,7 @@ h1 {
 .title, footer{
   margin: auto;
   text-align: center;
+  padding: 10px;
 }
 
 ul {
@@ -49,16 +50,17 @@ a {
 
 /* Smartphones (portrait)
 minimale breedte : 320px; */
-@media (min-width: 320px) {                                                          
-  h1 {                                                                             
-      font-size: 30px;   
-      background-color: black;                                                         
-  }                                                                                
-} 
+@media (min-width: 320px) {                                                                                                               
+    body {                                                                             
+        font-size: 20px; 
+        background-color: white;   
+        color: black;                                                         
+    }                                                                                
+  }  
 
 /* Tablets (portrait)
 minimale breedte : 768px */
-@media (min-width: 768px) {                                                          
+@media (min-width: 768px) {         
   body {                                                                             
       font-size: 20px; 
       background-color: white;   
